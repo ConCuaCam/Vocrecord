@@ -1,0 +1,96 @@
+.container {
+	max-width: 1160px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.main-content-wrap {
+	padding-bottom: 30px;
+}
+
+.main-content {
+	padding: 0 10px;
+}
+
+form {
+	line-height: 24px;
+	border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+
+.box-content {
+	border-top: 1px solid #999 !important;
+	margin-top: 30px;
+	padding: 30px 20px 10px 20px;
+}
+
+.wish-title {
+	margin-bottom: 30px;
+}
+
+.wish-title h2 {
+	font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    line-height: 1.42857;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+table {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+table thead th, td {
+	padding: 10px;
+	color: #777;
+}
+
+table td {
+	border-top: 1px solid #ddd;
+}
+
+.product-remove {
+	vertical-align: middle;
+    width: 40px;
+}
+
+.product-img {
+	width: 80px;
+}
+
+.product-name {
+	text-align: left;
+}
+
+
+.wishlist-empty {
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+td.product-remove {
+	font-size: 3rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #222;
+    padding: 10px;
+    height: 48px;
+    line-height: 48px;
+}
+
+td.product-img img {
+	max-width: 90px;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+td.product-name {
+	text-transform: uppercase;
+}

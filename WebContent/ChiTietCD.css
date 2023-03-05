@@ -1,0 +1,276 @@
+.row {
+    display: flex;
+    margin: 0 -10px;
+    margin-bottom: 2rem;
+}
+
+.row-left,
+.row-right {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.product-images {
+    width: 545px;
+    margin-bottom: 1rem;
+}
+
+.product-images img {
+    aspect-ratio: auto 600 / 600;
+    width: 100%;
+}
+
+.noti {
+    background: #F2F4F8;
+    padding: 19px;
+    margin: 20px 0;
+    color: #000;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.noti-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.noti-header h4 {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #222329;
+}
+
+.noti-info {
+    padding: 10px 15px;
+}
+.noti p {
+    line-height: 24px;
+}
+
+.row-right h2 {
+    line-height: 1.2;
+    color: #222529;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.row-right .nghe-si {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121619;
+}
+
+.row-right .price {
+    display: flex;
+    font-size: 21px !important;
+    margin: 10px 0;
+    font-weight: 600;
+    position: relative;
+    align-items: center;
+}
+
+.price span:first-child {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.row-right p {
+    font-weight: 400;
+    color: #697077;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* Center Session */ 
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1160px !important;
+    /* padding: 0 !important; */
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #302E2A;
+    margin-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ele-popular ul {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 2rem;
+}
+
+.ele-popular ul li {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.product-image {
+    margin-bottom: 1rem;
+    min-height: 90px;
+    width: 100%;
+}
+
+.product-image .inner {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+    transform: translateZ(0);
+}
+
+.product-content {
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1.6rem;
+}
+
+.product-title p {
+    margin-bottom: 0.5rem;
+}
+
+.product-name {
+    text-transform: uppercase;
+    color: #697077;
+}
+
+.product-auth {
+    font-weight: 700;
+}
+
+.product-price {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.6rem;
+}
+
+.add-links-wrap {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.ele-popular ul li:hover .add-links-wrap {
+    visibility: visible;
+}
+
+.add-links-wrap a:nth-child(2){
+    position: relative;
+    left: 62px;
+    z-index: 1;
+    opacity: 0.55;
+}
+ 
+li:hover .add-links-wrap a {
+    left: 0;
+    transition: all 0.25s linear;
+    transform: 0.25s;
+    opacity: 1;
+}
+
+.add-links-wrap-1 {
+    padding: 1.25rem 0 1rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    margin-top: 10px;
+    display: flex;  
+    align-items: center;
+}
+
+.add-links-wrap-1 a:first-child {
+    display: block;
+    padding: 10px 23px !important;
+    margin-right: 2rem;
+    box-shadow: 4px 4px 0px #000000;
+}
+
+.add-links-wrap-1 a:last-child {
+    background-color: #FFF27E;
+}
+.add-links-wrap-1 a {
+    padding: 10px 12px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #121619;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 0px #000000;
+}
+
+.add-links-wrap-1 a i {
+    font-size: 1.9rem;
+}
+
+.thong-tin {
+    border-bottom: 2px solid #A2A9B0;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #222329;
+}
+
+table {
+    margin-top: 20px;
+}
+
+table th, td {
+    padding: 3px 0 !important;
+    min-width: 210px;
+    font-size: 16px;
+    color: #121619;
+    font-weight: 300;
+    vertical-align: top;
+    text-align: left;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    position: absolute;
+    top: -30px;
+    right: 0;
+}

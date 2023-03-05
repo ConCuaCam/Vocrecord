@@ -1,0 +1,159 @@
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1160px !important;
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+    margin-bottom: 2rem;
+    gap: 20px;
+}
+
+.row-left {
+    flex: 0.25;
+    padding: 0 10px;
+}
+
+.row-right {
+	flex: 0.75;
+	padding: 0 10px;
+}
+
+.main ul li a {
+	padding: 15px 0 15px 10px;
+	font-size: 16px;
+	color: #121619;
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+
+.main ul li a:hover {
+	background: #eee;
+}
+
+a.active {
+    color: #697077;
+    font-weight: bold;
+}
+
+form.row-right {
+	padding: 30px 20px 10px 20px;
+	border-top: 1px solid #999 !important;
+	border: 1px solid #ececec;
+}
+
+form.row-right p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+form.row-right a {
+	background: #222;
+	padding: 8px 12px;
+	color: #fff;	
+	display: inline-block;
+}
+
+form.row-right a:hover {
+	text-decoration: underline;
+}
+
+form.row-right table {
+	width: 100%;
+	border-spacing: unset;
+	margin-bottom: 20px;
+}
+
+form.row-right h1 {
+	font-size: 20px;
+	color: hsl(209, 61%, 16%);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border-spacing: unset;
+}
+
+table thead th {
+	color: #777;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 1rem;
+	text-transform: uppercase;
+	min-width: 105px;
+	text-align: left;
+	min-width: 125px;
+	line-height: 1.6;
+	
+}
+
+table td {
+	font-size: 14px;
+	color: #222;
+	padding: 1rem;
+	border-top: 1px solid #ddd;
+	text-transform: capitalize;
+}
+
+table tbody tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+/* Modal */
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+}
+
+.active-modal {
+    z-index: 10;
+    visibility: visible;
+}
+
+.heading {
+	display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    line-height: 1.6;
+    align-items: center;
+    background: #ececec;
+    font-size: 20px !important;
+    height: 50px;
+    overflow: hidden;
+}
+
+.heading h4 {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.heading .remove {
+	font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.content table img {
+	width: 80px;
+}

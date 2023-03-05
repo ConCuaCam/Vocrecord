@@ -1,0 +1,263 @@
+.container {
+	max-width: 1160px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    min-height: 350px;
+    padding-bottom: 80px;
+}
+
+.container .cart-empty {
+	margin-top: 3rem;
+	padding: 1rem 1.5rem;
+    border: 1px solid #d1edf6;
+    margin-bottom: 1.5rem;
+    color: #2f6473;
+    background-color: #def2f8;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.return-to-shop {
+	padding-bottom: 30px;
+}
+
+
+.container .return-to-shop a {
+	background: #222;
+	color: #fff;
+	display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+/* Cart */
+.cart-v2 {
+	display: flex
+}
+
+.cart-left {
+	flex: 0.66667;
+	max-width: 66.6667%;
+	padding: 0 10px;
+}
+
+.main-form {
+	padding: 3rem 2rem 1rem 2rem;
+	border: 1px solid rgba(0,0,0,0.09);
+	border-top: 1px solid #999;
+	line-height: 1.6;
+	align-self: flex-start;
+}
+
+.cart-right {
+	flex: 0.33334;
+	max-width: 33.3334;
+	padding: 0 10px;
+}
+
+.container > h2 {
+	margin: 30px 0 20px;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.remove {
+	font-size: 3rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #222;
+    padding: 10px;
+    height: 48px;
+    line-height: 48px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cart-item-img {
+	max-width: 90px;
+	height: auto;
+}
+
+form table {
+	width: 100%;
+	border-spacing: unset;
+}
+
+table thead th {
+	color: #777;
+	font-size: 1.4rem;
+	padding: 1rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+table td {
+	font-size: 1.4rem;
+	color: #222;
+	padding: 1rem;
+	border-top: 1px solid #ddd;
+	text-transform: capitalize;
+}
+
+table tbody tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+.cart-form {
+	display:flex;
+}
+
+.form-btn {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-color: #f4f4f4;
+    line-height: 1;
+    border: 1px solid #c8bfc6;
+    cursor: pointer;
+}
+
+.cart-form input {
+	text-align: center;
+	width: 90px;
+	border: 1px solid #c8bfc6;
+	border-radius: 0;
+    height: 30px;
+    padding: 0 4px;
+}
+
+.cart-form input:focus-visible {
+	 outline: none;
+}
+
+.minus-btn {
+	left: 1px;
+}
+
+.plus-btn {
+	left: -1px;
+}
+
+.minus-btn, .plus-btn {
+	display: grid;
+    place-items: center;
+    color: #222;
+}
+
+.cart-actions {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.cart-actions a, 
+.cart-actions button {
+	padding: 8.5px 15px;
+    font-size: 12.8px;
+    line-height: 1.42857;
+    border: 1px solid rgba(0,0,0,0.09);
+    border-bottom-color: rgba(0,0,0,.2);
+    color: #333;
+    text-transform: uppercase;
+}
+
+.cart-actions button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.giao-hang {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	align-self: flex-start;
+	margin-bottom: 30px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.dropdown {
+	height: auto;
+    transition: all 0.3s linear;
+    will-change: opacity, transition;
+}
+
+.card-body ul {
+	padding: 10px 0;
+}
+
+.mr-8 {
+	margin-right: 8px;
+}
+
+.mb-12 {
+	display: inline-block;	
+	margin-bottom: 12px;
+}
+
+.card-header {
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #f7f7f7;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-title {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.card-body {
+	padding: 15px 20px;
+}
+
+.card-subtotal {
+	display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdcdc;
+    align-items: center;
+}
+.card-subtotal h4 {
+	font-size: 1.5rem;
+}
+
+.card-subtotal .total {
+	font-size: 18px;
+}
+
+.card-btn {
+	padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #222;
+    border-color: #222222 #222222 #090909;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.card-btn:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,135 @@
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1160px !important;
+    /* padding: 0 !important; */
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+    margin-bottom: 2rem;
+}
+
+.row-left {
+    flex: 0.33334;
+    padding: 0 10px;
+}
+
+.row-right {
+	flex: 0.66667;
+	padding: 0 10px;
+}
+
+.wrap-table {
+	background: #F2F4F8;
+}
+
+form h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #222329;
+    margin: 0 0 20px 0;
+}
+
+.form-row {
+	margin-bottom: 15px;
+    vertical-align: top;
+}
+
+form label {
+	margin-bottom: 8px;
+	display: block;
+	font-size: 16px;
+}
+
+form input {
+	padding: 8px 12px;
+	color: #777;
+	outline: none;
+	line-height: 1.42857;
+	width: 100%;
+	border: 1px solid #ccc;
+	font-family: 'IBM Plex Sans';
+}
+
+form .order-comments {
+	min-height: 300px;
+	color: #777777;
+	box-shadow: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px 12px;
+    outline: none;
+    font-family: 'IBM Plex Sans';
+}
+
+table, .place-order {
+	padding: 20px;
+}
+
+table {
+	border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    line-height: 24px;
+}
+
+table label {
+	display: inline-block !important;
+}
+
+table input {
+	width: auto;
+}
+
+th, td {
+	text-align: left;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+
+thead th {
+	border: none;
+}
+
+.product-name {
+	width: 40% !important;
+	border-right: 1px solid #ddd;
+	text-transform: capitalize;
+}
+
+.place-order p {
+	font-size: 16px;
+}
+
+.place-order button {
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: #222222;
+    border-color: #222222;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fs-17 {
+	font-size: 17px;
+}
+
+p {
+	line-height: 1.6;
+}

@@ -1,0 +1,76 @@
+.container {
+    max-width: 900px !important;
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* border: 1px solid; */
+    border-top: 1px solid #999 !important;
+    border: 1px solid #ececec;
+    padding: 35px 30px;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+    margin-bottom: 2rem;
+}
+
+.row-left {
+	flex: 1;
+    padding: 0 20px;
+}
+
+.row-right {
+	flex: 1;
+	padding: 0 20px;
+}
+
+form h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222329;
+    margin: 0 0 20px 0;
+}
+
+.form-row {
+	margin-bottom: 15px;
+    vertical-align: top;
+}
+
+form label {
+	margin-bottom: 8px;
+	display: block;
+	font-size: 16px;
+}
+
+form input {
+	padding: 8px 12px;
+	color: #777;
+	outline: none;
+	line-height: 1.42857;
+	width: 100%;
+	border: 1px solid #ccc;
+	font-family: 'IBM Plex Sans';
+}
+
+.log-btn {
+	border: 1px solid #222;
+    background: #fff;
+    background-color: #222222;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 8px 12px;
+    line-height: 1.5;
+    margin-top: 5px;
+}

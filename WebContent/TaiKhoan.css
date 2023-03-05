@@ -1,0 +1,102 @@
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1160px !important;
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+    margin-bottom: 2rem;
+    gap: 20px;
+}
+
+.row-left {
+    flex: 0.25;
+    padding: 0 10px;
+}
+
+.row-right {
+	flex: 0.75;
+	padding: 0 10px;
+}
+
+.main ul li a {
+	padding: 15px 0 15px 10px;
+	font-size: 16px;
+	color: #121619;
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+
+.main ul li a:hover {
+	background: #eee;
+}
+
+a.active {
+    color: #697077;
+    font-weight: bold;
+}
+
+form.row-right {
+	padding: 30px 20px 10px 20px;
+	border-top: 1px solid #999 !important;
+	border: 1px solid #ececec;
+}
+
+.form-row-first {
+	float: left;
+    width: 48%;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.form-row-last {
+	float: right;
+    width: 48%;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.row-right label {
+	font-size: 16px;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.row-right input {
+	max-width: 300px !important;
+	border: 1px solid #ccc;
+	color: #777777;
+	width: 100%;
+	text-align: left;
+    line-height: 1.42857;
+    padding: 8px 12px;
+    height: auto;
+    outline: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.row-right button {
+	background-color: #222222;
+    border-color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+    touch-action: manipulation;
+    padding: 8px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 20px;
+}

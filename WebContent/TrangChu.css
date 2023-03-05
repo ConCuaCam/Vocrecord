@@ -1,0 +1,213 @@
+/* Main */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section-left, .top-section-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    padding-top: 50px;
+}
+
+.top-section a:hover {
+	text-decoration: underline;
+}
+
+.top-section-left-info{
+    margin-right: 2rem;
+}
+
+.top-section-left-info h3, .top-section-right-info h3 {
+    margin-bottom: 2rem;
+}
+
+.top-section-left-info a, .top-section-right-info a {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.top-section-left-info p, .top-section-right-info p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.top-section-left-button {
+    margin-right: 20px;
+}
+
+.ele-btn-w {
+    margin-bottom: 20px;
+}
+
+.top-section-right {
+    align-items: flex-start;
+    text-align: start;
+    background-color: #DDE1E6;
+}
+
+.top-section-right-info {
+    margin-left: 2rem;
+}
+
+.top-section-right-button {
+    margin-left: 2rem;
+}
+
+.ele-img img {
+    display: block;
+}
+
+/* Center Session */ 
+.center-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.ele-rows {
+    max-width: 1160px !important;
+    /* padding: 0 !important; */
+    padding-left: 1.27vw !important;
+    padding-right: 1.27vw !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #302E2A;
+    margin-bottom: 2rem;
+}
+
+.ele-popular ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 2rem;
+}
+
+.ele-popular ul li {
+    position: relative;
+    max-width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.product-image {
+    display: block;
+    margin-bottom: 1rem;
+    min-height: 90px;
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: auto 600 / 600;
+}
+
+.product-image .inner {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+    transform: translateZ(0);
+}
+
+.product-content {
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1.6rem;
+}
+
+.product-title p {
+    margin-bottom: 0.5rem;
+}
+
+.product-name {
+    text-transform: uppercase;
+    color: #697077;
+}
+
+.product-auth {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.6rem;
+}
+
+.add-links-wrap {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.ele-popular ul li:hover .add-links-wrap {
+    visibility: visible;
+}
+
+.add-links-wrap a:nth-child(2){
+    position: relative;
+    left: 62px;
+    z-index: 1;
+    opacity: 0.55;
+}
+ 
+li:hover .add-links-wrap a {
+    left: 0;
+    transition: all 0.25s linear;
+    transform: 0.25s;
+}
+
+/* Khám Phá DS Đĩa Than */
+.kham-pha {
+    text-align: center;
+}
+
+
+/* Theo Dõi Vọc */
+.links-social {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.links-social-text {
+    width: 50%;
+    padding: 1rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.links-social-icon {
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    font-size: 1.8rem;
+}
+
+.links-social-icon a {
+    margin: 0 1rem;
+    color: #818A91;
+}
